@@ -1,0 +1,35 @@
+.container {
+  margin: 0.75in;
+  display: grid;
+  grid-template-columns: auto 1.85in;
+  grid-template-areas:
+    'intro contact'
+    'main side';
+  gap: 1rem 2rem;
+}
+
+@media print and (width: 8.5in) and (height: 11in) {
+  .container {
+    margin: 0.75in;
+  }
+}
+
+.intro {
+  grid-area: intro;
+}
+
+.contact {
+  grid-area: contact;
+  align-self: end;
+}
+
+.main {
+  grid-area: main;
+}
+
+.side {
+  grid-area: side;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

@@ -1,0 +1,63 @@
+.underlined {
+  text-decoration: underline;
+}
+
+.style-muted {
+  color: #929292;
+}
+
+.size-sm {
+  font-size: 0.8rem;
+}
+
+.size-lg {
+  font-size: 0.9rem;
+}
+
+.size-xl {
+  font-size: 0.95rem;
+}
+
+.size-2xl {
+  font-size: 1rem;
+}
+
+.size-3xl {
+  font-size: 1.05rem;
+}
+
+.size-4xl {
+  font-size: 1.1rem;
+}
+
+.size-5xl {
+  font-size: 1.15rem;
+}
+
+.size-6xl {
+  font-size: 1.2rem;
+}
+
+.weight-semibold {
+  font-weight: 600;
+}
+
+.weight-bold {
+  font-weight: 700;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.line-height-tight {
+  line-height: 1.25;
+}
+
+.line-height-snug {
+  line-height: 1.375;
+}
+
+.line-height-relaxed {
+  line-height: 1.625;
+}

@@ -1,0 +1,37 @@
+.workList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.workHeader {
+  margin-bottom: 0.25rem;
+}
+
+.workTitle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.company {
+  font-weight: 700;
+}
+
+.webAddress {
+  text-decoration: underline;
+}
+
+.projectsContainer {
+  margin-top: 0.25rem;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.projectTitle {
+  display: flex;
+  gap: 0.25rem;
+}

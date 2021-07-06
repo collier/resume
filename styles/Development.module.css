@@ -1,0 +1,7 @@
+.listsContainer {
+  display: flex;
+}
+
+.list {
+  flex-grow: 1;
+}

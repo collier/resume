@@ -1,0 +1,9 @@
+.toolList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.toolList li:not(:last-child):after {
+  content: ', ';
+  margin-right: 0.2rem;
+}
