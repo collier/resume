@@ -20,6 +20,7 @@ export interface Basics {
   email: string;
   phone: string;
   website: string;
+  githubUser: string;
   summary: string;
   location: Location;
 }
@@ -62,8 +63,8 @@ export interface Education {
 }
 
 export interface Technology {
-  advanced: string[];
-  intermediate: string[];
+  expert: string[];
+  proficient: string[];
 }
 
 export interface Role {

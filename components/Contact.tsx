@@ -3,16 +3,17 @@ import { Text } from './Text';
 
 export function Contact() {
   const { basics } = useResume();
+  const { email, phone, website, githubUser } = basics;
   return (
     <>
-      <a href={`https://${basics.website}`}>
-        <Text lineHeight="snug">{basics.website}</Text>
+      <Text lineHeight="snug">{email}</Text>
+      <Text lineHeight="snug">{phone}</Text>
+      <a href={`https://${website}`}>
+        <Text lineHeight="snug">{website}</Text>
       </a>
-      <Text lineHeight="snug">{basics.email}</Text>
-      {/* <Text lineHeight="snug">{basics.phone}</Text> */}
-      <Text lineHeight="snug">
-        {basics.location.city}, {basics.location.region}
-      </Text>
+      <a href={`https://github.com/${githubUser}`}>
+        <Text lineHeight="snug">{`github.com/${githubUser}`}</Text>
+      </a>
     </>
   );
 }

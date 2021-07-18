@@ -4,7 +4,7 @@ import styles from '../styles/Development.module.css';
 
 export function Development() {
   const { technology } = useResume();
-  const { advanced, intermediate } = technology;
+  const { expert, proficient } = technology;
   return (
     <div>
       <Text size="sm" weight="semibold">
@@ -13,24 +13,24 @@ export function Development() {
       <div className={styles.listsContainer}>
         <div className={styles.list}>
           <Text size="sm" weight="semibold" style="muted">
-            Advanced
+            Expert
           </Text>
           <ul>
-            {advanced.map((advancedTech, i) => (
+            {expert.map((expertTech, i) => (
               <li key={i}>
-                <Text>{advancedTech}</Text>
+                <Text>{expertTech}</Text>
               </li>
             ))}
           </ul>
         </div>
         <div className={styles.list}>
           <Text size="sm" weight="semibold" style="muted">
-            Intermediate
+            Proficient
           </Text>
           <ul>
-            {intermediate.map((intermediateTech, i) => (
+            {proficient.map((proficientTech, i) => (
               <li key={i}>
-                <Text>{intermediateTech}</Text>
+                <Text>{proficientTech}</Text>
               </li>
             ))}
           </ul>

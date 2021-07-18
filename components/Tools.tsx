@@ -7,7 +7,7 @@ export function Tools() {
   return (
     <div>
       <Text size="sm" weight="semibold">
-        Tools
+        Tools & Frameworks
       </Text>
       <ul className={styles.toolList}>
         {tools.map((tool, i) => (
